@@ -53,4 +53,92 @@
 .nav-btn button:hover {
     background: #2f855a;
 }
+.banner {
+    width: 100%;
+    height: 674px;
+    margin-top: 10px;
+
+    background-image: url("assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+
+    padding: 70px 120px 134px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 40px;
+    color: #ffffff;
+}
+
+.badge {
+    background: #ffffff;
+    color: #2f855a;
+    padding: 6px 14px;
+    border-radius: 20px;
+    width: fit-content;
+    font-size: 14px;
+    margin: auto;
+}
+.banner-content h1 {
+    font-size: 56px;
+    line-height: 1.2;
+}
+
+.banner-content h1 span {
+    color: #4ade80;
+}
+
+.banner-content p {
+    font-size: 16px;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.banner-buttons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+
+.primary-btn {
+    background: #3b8d5a;
+    color: #ffffff;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.primary-btn:hover {
+    background: #2f855a;
+}
+
+.secondary-btn {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 14px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.secondary-btn:hover {
+    border: 1px solid #100101;
+}
+
 
